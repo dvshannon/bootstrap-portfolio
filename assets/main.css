@@ -1,0 +1,115 @@
+/* assets/img/leaders-wknd.jpg */
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    margin: 0;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    min-height: 70px;
+
+  }
+  .navbar .navbar-brand {
+    color: #FFF;
+    float: left;
+    background-color: #4aaaa5;
+    margin: 0 425px 0 175px;
+    font-size: 2rem;
+    padding: 20px 30px;
+    /* I am infuriated with how this will not stretch the height of the full nav so maybe I'll come back to it maybe I won't who knows. */
+    height: 100%;
+  }
+  .navbar > .navbar-brand:hover,
+  .navbar > .navbar-brand:focus {
+    color: #FFF;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: #777777;
+    margin: 0 0.25em;
+    float: right;
+    font-size: 1.1rem;
+    padding: 0px 25px;
+  }
+
+  span a {
+    border-right: 1px solid #cccccc ;
+    border-left: 1px solid #cccccc;
+    padding: 0 30px;
+    margin: 0;
+
+}
+
+  .navbar .navbar-nav .nav-link:not(.disabled):hover {
+    color: #4aaaa5;
+  }
+  .navbar .navbar-nav .nav-item.active .nav-link,
+  .navbar .navbar-nav .nav-item.active .nav-link:hover,
+  .navbar .navbar-nav .nav-item.show .nav-link,
+  .navbar .navbar-nav .nav-item.show .nav-link:hover {
+    color: #4aaaa5;
+    background-color: #4aaaa5;
+  }
+
+  .navbar .navbar-link {
+    color: #777777;
+    float: left;
+  }
+
+  .navbar .navbar-link:hover {
+    color: #4aaaa5;
+  }
+
+  .showcase {
+      background-image: url("/Users/deyonshannon/code/repositories/bootstrap-portfolio/assets/img/white-waves.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding:50px 0 50px 0;
+  }
+
+  .container {
+    border: solid 1px #ddd;
+    margin: 0 auto;
+    background: #fff;
+    padding: 15px;
+    max-width: 960px;
+  }
+
+  h1 {
+    color: #4aaaa5;
+    padding-left: 15px; 
+    padding-bottom: 5px;
+    border-bottom: solid 2px #ddd;
+    margin-bottom: 20px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+img {
+    max-width: 200px;
+    
+}
+
+p {
+    color: #777777;
+    line-height: 2rem;
+ }
+
+ footer {
+    border-top: 8px solid #4aaaa5;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+    background: #666666;
+    position: sticky;
+    bottom: 0;
+    min-width: 100%;
+}
+
+footer p {
+    color: #fff;
+    font-size: .75rem;
+}
